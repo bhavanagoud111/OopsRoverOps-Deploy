@@ -1,0 +1,75 @@
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/env/
+backend/.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.eslintcache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+backend/server.log
+backend/server.pid
+/tmp/roverops_*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+frontend/dist/
+frontend/build/
+*.map
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Secrets and keys (extra safety)
+*secret*
+*key*
+*password*
+*credential*
+*.pem
+*.key
+*.cert
+
+backend/.env.bak
