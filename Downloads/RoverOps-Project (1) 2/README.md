@@ -124,8 +124,3 @@ Tigerhacks/
 ## Quick Start
 
 See `SETUP_INSTRUCTIONS.md` for detailed setup instructions.
-
-## License
-
-MIT
-
